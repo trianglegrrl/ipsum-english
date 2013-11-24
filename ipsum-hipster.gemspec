@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "ipsum-english/version"
+require "ipsum-hipster/version"
 
 Gem::Specification.new do |s|
-  s.name        = "ipsum-english"
-  s.version     = Ipsum::English::VERSION
+  s.name        = "ipsum-hipster"
+  s.version     = Ipsum::Hipster::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Clive Crous"]
-  s.email       = ["clive@crous.co.za"]
-  s.homepage    = "http://www.darkarts.co.za/ipsum-english"
-  s.summary     = %q{English language dictionary for Ipsum}
-  s.description = %q{English language dictionary for Ipsum}
+  s.authors     = ["Alaina Hardie"]
+  s.email       = ["alaina@precisionnutrition.com"]
+  s.homepage    = "http://www.precisionnutrition.com/ipsum-hipster"
+  s.summary     = %q{Hipster language dictionary for Ipsum}
+  s.description = %q{Hipster language dictionary for Ipsum}
 
   s.add_dependency "ipsum-core", ">= 2.0.0"
 
